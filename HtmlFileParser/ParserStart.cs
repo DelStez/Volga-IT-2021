@@ -56,30 +56,42 @@ namespace HtmlFileParser
             //Find all html string with contains of 
             collections = new List<string>(Reading(pathFile, collections));
             ParseMatches(collections);
-            
+            ShowResult();
+
         }
 
-        async void AnalyzeValues(string currentLine)
+        public void ShowResult()
+        { 
+            var ordered = _analyzeWords.words
+                .OrderBy(x => x.Value)
+                .ToDictionary(x => x.Key, x => x.Value);
+            foreach (var x in ordered.Reverse())
+            {
+                Console.WriteLine(@"{0} - {1}", x.Key, x.Value);
+            }
+        }
+
+        void AnalyzeValues(string currentLine)
         {
             _analyzeWords.GetCount(currentLine);
         }
 
-        public List<string> ParseMatches(List<string> currentCollections)
+        public void ParseMatches(List<string> currentCollections)
         {
-            List<string> newCollection = new List<string>();
             foreach (var match in currentCollections)
             {
                 //Console.WriteLine(match);
-                string temp = Regex.Replace(match, @"<[^>]*>", string.Empty);
+                string temp = Regex.Replace(match, @"<[^>]+>|&nbsp;", " ").Trim();
+                temp = Regex.Replace(temp, @"\s{2,}", " ");
                 if (temp != string.Empty)
                 {
                     // Clearing punctuation marks (without white-space)
-                    temp = Regex.Replace(temp, @"[\p{P}]", string.Empty);
+                    temp = Regex.Replace(temp, @"[\s\p{P}]", " ");
+                    //Console.WriteLine(temp);
                     // we have "clear" List words
                     AnalyzeValues(temp);
                 }
             }
-            return newCollection;
         }
     }
 }

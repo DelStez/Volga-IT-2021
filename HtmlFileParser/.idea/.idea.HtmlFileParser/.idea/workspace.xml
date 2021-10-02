@@ -27,8 +27,10 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/29a6c1945f57447495fcad42118554c7363d00/ab/68720ecd/MatchCollection.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b6a0e6615ee04ea7ad535b38f9316104568788/b2/ff7b7931/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fd824cfb55004855b9e6d51b008c90e4568778/91/50b1747f/__Error.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b6a0e6615ee04ea7ad535b38f9316104568788/11/c2b08ab4/StreamReader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b6a0e6615ee04ea7ad535b38f9316104568788/27/0e957fc7/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fd824cfb55004855b9e6d51b008c90e4568778/6f/3a5853ab/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b6a0e6615ee04ea7ad535b38f9316104568788/78/b7bb161f/Console.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b6a0e6615ee04ea7ad535b38f9316104568788/70/d1621caf/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/29a6c1945f57447495fcad42118554c7363d00/1c/89996ecd/WebClient.cs" root0="SKIP_HIGHLIGHTING" />
@@ -87,7 +89,7 @@
       <updated>1632929302298</updated>
       <workItem from="1632929339384" duration="16365000" />
       <workItem from="1632955680839" duration="8935000" />
-      <workItem from="1633127044218" duration="8591000" />
+      <workItem from="1633127044218" duration="13344000" />
     </task>
     <servers />
   </component>
@@ -99,66 +101,6 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ParserStart.cs</url>
-          <line>50</line>
-          <properties documentPath="C:\Users\Kanda\Documents\GitHub\Volga-IT-2021\HtmlFileParser\ParserStart.cs" initialLine="50" containingFunctionPresentation="method 'Reading'">
-            <startOffsets>
-              <option value="1432" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1451" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Program.cs</url>
-          <line>14</line>
-          <properties documentPath="C:\Users\Kanda\Documents\GitHub\Volga-IT-2021\HtmlFileParser\Program.cs" initialLine="13" containingFunctionPresentation="method 'Main'">
-            <startOffsets>
-              <option value="347" />
-            </startOffsets>
-            <endOffsets>
-              <option value="364" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Program.cs</url>
-          <line>28</line>
-          <properties documentPath="C:\Users\Kanda\Documents\GitHub\Volga-IT-2021\HtmlFileParser\Program.cs" initialLine="27" containingFunctionPresentation="method 'ParseCommand'">
-            <startOffsets>
-              <option value="762" />
-            </startOffsets>
-            <endOffsets>
-              <option value="840" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ParserStart.cs</url>
-          <line>46</line>
-          <properties documentPath="C:\Users\Kanda\Documents\GitHub\Volga-IT-2021\HtmlFileParser\ParserStart.cs" initialLine="47" containingFunctionPresentation="method 'Reading'">
-            <startOffsets>
-              <option value="1243" />
-              <option value="1304" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1323" />
-              <option value="1311" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
