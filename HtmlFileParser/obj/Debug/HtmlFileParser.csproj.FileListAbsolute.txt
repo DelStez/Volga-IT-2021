@@ -1,0 +1,6 @@
+C:\Users\Kanda\Documents\GitHub\Volga-IT-2021\HtmlFileParser\bin\Debug\HtmlFileParser.exe
+C:\Users\Kanda\Documents\GitHub\Volga-IT-2021\HtmlFileParser\bin\Debug\HtmlFileParser.pdb
+C:\Users\Kanda\Documents\GitHub\Volga-IT-2021\HtmlFileParser\obj\Debug\HtmlFileParser.csprojAssemblyReference.cache
+C:\Users\Kanda\Documents\GitHub\Volga-IT-2021\HtmlFileParser\obj\Debug\HtmlFileParser.csproj.CoreCompileInputs.cache
+C:\Users\Kanda\Documents\GitHub\Volga-IT-2021\HtmlFileParser\obj\Debug\HtmlFileParser.exe
+C:\Users\Kanda\Documents\GitHub\Volga-IT-2021\HtmlFileParser\obj\Debug\HtmlFileParser.pdb
